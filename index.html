@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Simple Todo App</title>
+    <link rel="stylesheet" href="bootstrap.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+    <h1>To Do List</h1>
+    <h2>Add a Todo</h2>
+    <ul id='todo-list' class='list-group'>
+    </ul>
+        <form action="">
+            <fieldset class="form-group">
+                <div>
+                    <label for="form-title">Title:</label>
+                    <input class="form-control" type="text" name="" id="form-title">
+                </div>
+                <div>
+                    <label for="form-description">Description:</label>
+                    <textarea class="form-control" name="" id="form-description" cols="30" rows="10"></textarea>
+                </div>
+            </fieldset>
+                <div>
+                <button class="btn btn-primary" type="submit" id='add-button'>Add Todo</button>
+                </div>
+
+        </form>
+    </div>
+<script src="todo.js"></script>
+</body>
+</html>
